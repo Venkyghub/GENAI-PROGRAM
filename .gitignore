@@ -1,1 +1,4 @@
-myvenv1/ 
+# Ignore embedded browser runtime profiles
+whatsapp_profile/
+whatsapp_profile_journal/
+myvenv1/
