@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Venkat",
+        "phone": "9962059797",
+        "message": "Hello Venkat  , how are you?",
+        "status": "sent_visible",
+        "sent_at": "2026-10-01T00:03:16",
+        "screenshot": "C:\\Users\\VENKATESH\\GENAI PROGRAM\\screenshots\\1_Venkat_000316.png",
+        "last_3_messages": [],
+        "error": null
+    },
+    {
+        "name": "Venkat Off",
+        "phone": "9363934381",
+        "message": "Hi Venkat Off, hope you're doing well!",
+        "status": "sent_visible",
+        "sent_at": "2026-10-01T00:03:46",
+        "screenshot": "C:\\Users\\VENKATESH\\GENAI PROGRAM\\screenshots\\2_Venkat_Off_000346.png",
+        "last_3_messages": [],
+        "error": null
+    }
+]
