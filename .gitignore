@@ -220,3 +220,7 @@ settings.local.*
 tmp/
 temp/
 .cache/
+
+
+# Environment variables and API keys
+.env
