@@ -224,3 +224,6 @@ temp/
 
 # Environment variables and API keys
 .env
+
+# Large generated videos
+WEEK2/DAY4RAGAPP/RAGAPP.mp4
