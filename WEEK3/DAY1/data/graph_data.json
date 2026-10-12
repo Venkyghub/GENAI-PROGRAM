@@ -1,0 +1,1550 @@
+{
+  "nodes": [
+    {
+      "id": "Scheme:Training to Farmers",
+      "label": "Scheme",
+      "name": "Training to Farmers",
+      "properties": {
+        "sponsored_by": "State",
+        "funding_pattern": "Rs.300 per farmer for 2 days.",
+        "benefit_type": "Grants",
+        "description": "All maize growing farmers are eligible to avail of the subsidy under this scheme in the Districts of Coimbatore, Dindigul, Erode, Dharmapuri, Krishnagiri, Namakkal, Perambalur, Virudhunagar, Theni, Villupuram, Vellore, Salem, Pudukkottai, Madurai, Sivagangai, Trichy, Tirunelveli and Thoothukudi. Preference will be given to Small/Marginal farmers 24% flow to SC/ST farmers will be ensured 20% flow to women farmers/ women groups",
+        "how_to_avail": "The application is to be submitted to: Assistant Agricultural officer at the Village Level Agricultural Officer / Deputy Agricultural Officer at the Block Level The Assistant Director of Agriculture at the Block Level The Joint Director of Agriculture at the District Level",
+        "source_url": "https://www.tn.gov.in/scheme_details.php?id=MTU2Ng=="
+      }
+    },
+    {
+      "id": "Department:Agriculture - Farmers Welfare Department",
+      "label": "Department",
+      "name": "Agriculture - Farmers Welfare Department",
+      "properties": {}
+    },
+    {
+      "id": "Beneficiary:Farmers",
+      "label": "Beneficiary",
+      "name": "Farmers",
+      "properties": {}
+    },
+    {
+      "id": "BenefitType:Grants",
+      "label": "BenefitType",
+      "name": "Grants",
+      "properties": {}
+    },
+    {
+      "id": "Scheme:Production of Foundation and Certified Seeds",
+      "label": "Scheme",
+      "name": "Production of Foundation and Certified Seeds",
+      "properties": {
+        "sponsored_by": "State",
+        "funding_pattern": "Rs.1000 per quintal",
+        "benefit_type": "Subsidy",
+        "description": "Those farmers who produce and supply Foundation and Certified Class seeds to the Department are elligible to avail of the benefit",
+        "how_to_avail": "Application is to be submitted to: Assistant Agricultural officer at the Village Level Agricultural Officer / Deputy Agricultural Officer at the Block Level The Assistant Director of Agriculture at the Block Level The Joint Director of Agriculture at the District Level",
+        "source_url": "https://www.tn.gov.in/scheme_details.php?id=ODAz"
+      }
+    },
+    {
+      "id": "BenefitType:Subsidy",
+      "label": "BenefitType",
+      "name": "Subsidy",
+      "properties": {}
+    },
+    {
+      "id": "Scheme:Distribution of Nuclear Poly Hedrosis Virus",
+      "label": "Scheme",
+      "name": "Distribution of Nuclear Poly Hedrosis Virus",
+      "properties": {
+        "sponsored_by": "State",
+        "funding_pattern": "50% cost of input limited to Rs. 250/- ha.",
+        "benefit_type": "Subsidy",
+        "description": "All farmers who raise seed farms with Pulses crop are eligible to avail the subsidy subject to availability of funds. SC/ST 24%, Farm Women 20%",
+        "how_to_avail": "The Application is to be submitted to: Assistant Agricultural officer at the Village Level Agricultural Officer / Deputy Agricultural Officer at the Block Level The Assistant Director of Agriculture at the Block Level The Joint Director of Agriculture at the District Level",
+        "source_url": "https://www.tn.gov.in/scheme_details.php?id=MTI4MA=="
+      }
+    },
+    {
+      "id": "Scheme:Distribution of Rhizobium Packets - Oilseeds",
+      "label": "Scheme",
+      "name": "Distribution of Rhizobium Packets - Oilseeds",
+      "properties": {
+        "sponsored_by": "State",
+        "funding_pattern": "A subsidy of 50% on the cost or Rs.100/-per ha whichever is less",
+        "benefit_type": "Subsidy",
+        "description": "Those farmers who produce and supply Foundation and Certified Class seeds to the Department are elligible to avail of the benefit",
+        "how_to_avail": "Application is to be submitted to: Assistant Agricultural officer at the Village Level Agricultural Officer / Deputy Agricultural Officer at the Block Level The Assistant Director of Agriculture at the Block Level The Joint Director of Agriculture at the District Level",
+        "source_url": "https://www.tn.gov.in/scheme_details.php?id=MTQ1MQ=="
+      }
+    },
+    {
+      "id": "Scheme:Livelihood activities for asset less persons-2012",
+      "label": "Scheme",
+      "name": "Livelihood activities for asset less persons-2012",
+      "properties": {
+        "sponsored_by": "State",
+        "benefit_type": "Subsidy",
+        "description": "Loan assistance to Income Generation activities and Revolving Fund to Self Help Groups Subsidy-600/ Ha",
+        "source_url": "https://www.tn.gov.in/scheme_details.php?id=NDQw"
+      }
+    },
+    {
+      "id": "Scheme:Infrastructure subsidy for Privately Developed Industrial Estates.",
+      "label": "Scheme",
+      "name": "Infrastructure subsidy for Privately Developed Industrial Estates.",
+      "properties": {
+        "sponsored_by": "State",
+        "funding_pattern": "20% of the cost of approved infrastructure items",
+        "benefit_type": "Incentives",
+        "description": "Outside a radius of 30 kms from Chennai City Centre",
+        "how_to_avail": "To apply to SIPCOT",
+        "source_url": "https://www.tn.gov.in/scheme_details.php?id=MTY4"
+      }
+    },
+    {
+      "id": "BenefitType:Incentives",
+      "label": "BenefitType",
+      "name": "Incentives",
+      "properties": {}
+    },
+    {
+      "id": "Scheme:Production of Foundation Seeds",
+      "label": "Scheme",
+      "name": "Production of Foundation Seeds",
+      "properties": {
+        "sponsored_by": "State",
+        "funding_pattern": "Rs.1000/- per quintal SC/ST 24%, Farm Women 20%",
+        "benefit_type": "Subsidy",
+        "description": "All farmers who raise seed farms with Pulses crop are eligible to avail the subsidy subject to availability of funds. SC/ST 24%, Farm Women 20%",
+        "how_to_avail": "The Application is to be submitted to: Assistant Agricultural officer at the Village Level Agricultural Officer / Deputy Agricultural Officer at the Block Level The Assistant Director of Agriculture at the Block Level The Joint Director of Agriculture at the District Level",
+        "source_url": "https://www.tn.gov.in/scheme_details.php?id=MTQ1Mg=="
+      }
+    },
+    {
+      "id": "Scheme:Distribution of Gypsum",
+      "label": "Scheme",
+      "name": "Distribution of Gypsum",
+      "properties": {
+        "sponsored_by": "State",
+        "funding_pattern": "50% on the cost of Material plus transport limited to Rs. 750/- per Ha.",
+        "benefit_type": "Subsidy",
+        "description": "All farmers who raise seed farms with Pulses crop are eligible to avail the subsidy subject to availability of funds. SC/ST 24%, Farm Women 20%",
+        "how_to_avail": "The Application is to be submitted to: Assistant Agricultural officer at the Village Level Agricultural Officer / Deputy Agricultural Officer at the Block Level The Assistant Director of Agriculture at the Block Level The Joint Director of Agriculture at the District Level",
+        "source_url": "https://www.tn.gov.in/scheme_details.php?id=MTQ5MQ=="
+      }
+    },
+    {
+      "id": "Scheme:Distribution of manually operated Plant Protection Equipment",
+      "label": "Scheme",
+      "name": "Distribution of manually operated Plant Protection Equipment",
+      "properties": {
+        "sponsored_by": "State",
+        "funding_pattern": "A subsidy of 50% on the cost of equipment or Rs. 800/- whichever is less",
+        "benefit_type": "Subsidy",
+        "description": "All farmers who raise seed farms with Pulses crop are eligible to avail the subsidy subject to availability of funds. SC/ST 24%, Farm Women 20%",
+        "how_to_avail": "The Application is to be submitted to: Assistant Agricultural officer at the Village Level Agricultural Officer / Deputy Agricultural Officer at the Block Level The Assistant Director of Agriculture at the Block Level The Joint Director of Agriculture at the District Level",
+        "source_url": "https://www.tn.gov.in/scheme_details.php?id=MTQzNw=="
+      }
+    },
+    {
+      "id": "Scheme:Pipes carrying water from source to field - Pulses ISPOM",
+      "label": "Scheme",
+      "name": "Pipes carrying water from source to field - Pulses ISPOM",
+      "properties": {
+        "sponsored_by": "State",
+        "funding_pattern": "Subsidy of 50% cost or Rs.15000 for water carrying pipes upto 800m and all types of pipes(PVC HDPE etc.,) and all size as per the requirement of the farmer.",
+        "benefit_type": "Subsidy",
+        "description": "All farmers are eligible limited to target 24% flow to SC/ST farmers will be ensured 20% flow to women farmers/ women groups",
+        "how_to_avail": "The Application is to be submitted to: Assistant Agricultural officer at the Village Level Agricultural Officer / Deputy Agricultural Officer at the Block Level The Assistant Director of Agriculture at the Block Level The Joint Director of Agriculture at the District Level",
+        "source_url": "https://www.tn.gov.in/scheme_details.php?id=MTMxNA=="
+      }
+    },
+    {
+      "id": "Scheme:Technology Development Fund for evolving cleaner and / or energy efficient or IT enabled technologies for Micro, Small & Medium Manufacturing Sector.",
+      "label": "Scheme",
+      "name": "Technology Development Fund for evolving cleaner and / or energy efficient or IT enabled technologies for Micro, Small & Medium Manufacturing Sector.",
+      "properties": {
+        "sponsored_by": "State",
+        "funding_pattern": "50% of the project cost",
+        "benefit_type": "Subsidy",
+        "description": "Anywhere in the State",
+        "how_to_avail": "Not applicable",
+        "source_url": "https://www.tn.gov.in/scheme_details.php?id=Mjg="
+      }
+    },
+    {
+      "id": "Beneficiary:Manufacturers",
+      "label": "Beneficiary",
+      "name": "Manufacturers",
+      "properties": {}
+    },
+    {
+      "id": "Scheme:Distribution of Rhizobium",
+      "label": "Scheme",
+      "name": "Distribution of Rhizobium",
+      "properties": {
+        "sponsored_by": "State",
+        "funding_pattern": "50% on the cost of Rhizobium or Rs.100/- per ha. whichever is less.",
+        "benefit_type": "Subsidy",
+        "description": "All farmers who raise seed farms with Pulses crop are eligible to avail the subsidy subject to availability of funds. SC/ST 24%, Farm Women 20%",
+        "how_to_avail": "The Application is to be submitted to: Assistant Agricultural officer at the Village Level Agricultural Officer / Deputy Agricultural Officer at the Block Level The Assistant Director of Agriculture at the Block Level The Joint Director of Agriculture at the District Level",
+        "source_url": "https://www.tn.gov.in/scheme_details.php?id=OTE2"
+      }
+    },
+    {
+      "id": "Scheme:Distribution of Soil  Health card",
+      "label": "Scheme",
+      "name": "Distribution of Soil  Health card",
+      "properties": {
+        "sponsored_by": "State",
+        "benefit_type": "Subsidy",
+        "description": "Soil health card will be distributed to all the farmers who have offered the soil sample for testing by paying prescribed fee of Rs.5/- each for Macro and Micro nutrient testing",
+        "source_url": "https://www.tn.gov.in/scheme_details.php?id=MTQzOA=="
+      }
+    },
+    {
+      "id": "Scheme:Rebate/ Reimbursement of Stamp duty & Registration charges for Micro and Small Enterprises",
+      "label": "Scheme",
+      "name": "Rebate/ Reimbursement of Stamp duty & Registration charges for Micro and Small Enterprises",
+      "properties": {
+        "sponsored_by": "State",
+        "funding_pattern": "50% of stamp duty and registration charges",
+        "benefit_type": "Incentives",
+        "description": "Industrial Estates developed by TANSIDCO or Govt. 251 backward blocks as listed in Annexure I",
+        "how_to_avail": "All new Micro and Small Enterprises",
+        "source_url": "https://www.tn.gov.in/scheme_details.php?id=Nw=="
+      }
+    },
+    {
+      "id": "Scheme:Training of Farmers on Pulses Production Technologies",
+      "label": "Scheme",
+      "name": "Training of Farmers on Pulses Production Technologies",
+      "properties": {
+        "sponsored_by": "State",
+        "funding_pattern": "A provision of Rs.15000 per batch of 50 farmers",
+        "benefit_type": "Grants",
+        "description": "All farmers who raise seed farms with Pulses crop are eligible to avail the subsidy subject to availability of funds. SC/ST 24%, Farm Women 20%",
+        "how_to_avail": "The Application is to be submitted to: Assistant Agricultural officer at the Village Level Agricultural Officer / Deputy Agricultural Officer at the Block Level The Assistant Director of Agriculture at the Block Level The Joint Director of Agriculture at the District Level",
+        "source_url": "https://www.tn.gov.in/scheme_details.php?id=MTA1OQ=="
+      }
+    },
+    {
+      "id": "Scheme:Subsidy on the assessed Value Added Tax (VAT)",
+      "label": "Scheme",
+      "name": "Subsidy on the assessed Value Added Tax (VAT)",
+      "properties": {
+        "sponsored_by": "State",
+        "funding_pattern": "Assessed Value Added Tax (VAT) for the first six years from the date of commencement of production",
+        "benefit_type": "Subsidy",
+        "description": "Anywhere in the state",
+        "how_to_avail": "1. For issue of an Eligibility Certificate within one year from the date of commencement of production 2. For submission of VAT claims VAT reimbursement claims should be submitted within one month after completion of each quarter.",
+        "source_url": "https://www.tn.gov.in/scheme_details.php?id=NQ=="
+      }
+    },
+    {
+      "id": "Scheme:Distribution of Certified seeds - Oil Seeds",
+      "label": "Scheme",
+      "name": "Distribution of Certified seeds - Oil Seeds",
+      "properties": {
+        "sponsored_by": "State",
+        "funding_pattern": "50% of the cost of seed or Rs. 1200/-perquintal whichever is less",
+        "benefit_type": "Subsidy",
+        "description": "Those farmers who produce and supply Foundation and Certified Class seeds to the Department are elligible to avail of the benefit",
+        "how_to_avail": "Application is to be submitted to: Assistant Agricultural officer at the Village Level Agricultural Officer / Deputy Agricultural Officer at the Block Level The Assistant Director of Agriculture at the Block Level The Joint Director of Agriculture at the District Level",
+        "source_url": "https://www.tn.gov.in/scheme_details.php?id=OTIw"
+      }
+    },
+    {
+      "id": "Scheme:Under Integrated Scheme for Oilseeds, Oilpalm and Maize (ISOPOM)",
+      "label": "Scheme",
+      "name": "Under Integrated Scheme for Oilseeds, Oilpalm and Maize (ISOPOM)",
+      "properties": {
+        "sponsored_by": "State",
+        "funding_pattern": "24% flow to SC/ST 30% flow to Women farmer",
+        "benefit_type": "Incentives",
+        "description": "i) Production of Foundation and Certified Seeds – Seeds produced and supplied to the Department are entitled for a subsidy of  1000 per quintal. ii) Distribution of Certified seeds – 50% of the cost of seed (maximum ` 1200/- per quintal) iii) Compact Block Demonstration of 5 Ha. each – 50% subsidy on the cost of inputs with maximum limit per Demonstration Groundnut - ` 4000/- Gingelly, - ` 1500/- Sunflower - ` 2500/- iv) Distribution of Rhizobium Packets – A subsidy of 50% on the cost (maximum ` 100/- per ha) v) Organizing Integrated Pest Management Demonstration of 10 ha each – A provision of ` 22680/- is made towards the cost of inputs to layout the demonstration and for Training. vi) Distribution of Gypsum – 50% of the cost of material plus transport charges (maximum ` 750/- per ha.) vii) Distribution of Plant Protection Equipment – a) For Manually operated sprayers 50%subsidy in the cost of equipment (maximum ` 800/-) b) For Power operated sprayers 50%subsidy in the cost of equipment (maximum ` 2000/-) viii) Training of Farmers on Oilseeds Production Technologies – A provision of ` 15000/- per batch of 50 farmers towards incidental charges ix) Distribution of Bio- Pesticides – 50% Subsidy (maximum ` 250/Ha.) x) Distribution of Weedicides – 50% Subsidy (maximum ` 500/Ha) xi) Pipes carrying water from source to field: A subsidy of 50% in the cost or maximum of ` 15,000 whichever is less for water carrying pipes upto 800 meter and all types of pipes (PVC/ HDPE etc.,) and all size as per the requirement of the farmer xii) Combined Nutrient Spray for groundnut. A subsidy of ` 200/- per ha for spraying of nutrient mixture of DAP,Ammonium Sulphate and Borax.",
+        "how_to_avail": "Village Level Assistant Agricultural officer Block Level Assistant Seed Officer / Deputy Agricultural Officer / Agricultural Officer and Assistant Director of Agriculture District Level Joint Director of Agriculture",
+        "source_url": "https://www.tn.gov.in/scheme_details.php?id=MTQxMg=="
+      }
+    },
+    {
+      "id": "Scheme:Quality Paddy seed Distribution",
+      "label": "Scheme",
+      "name": "Quality Paddy seed Distribution",
+      "properties": {
+        "sponsored_by": "State",
+        "funding_pattern": "5 per kg of certified paddy seeds",
+        "benefit_type": "Incentives",
+        "description": "A subsidy of  5 per kg of certified paddy seeds will be allowed in the sale price at the time of purchase in the Agricultural Extension Centers.",
+        "how_to_avail": "Village Level Assistant Agricultural officer Block Level Assistant Seed Officer / Deputy Agricultural Officer / Agricultural Officer and Assistant Director of Agriculture District Level Joint Director of Agriculture",
+        "source_url": "https://www.tn.gov.in/scheme_details.php?id=MTQwMQ=="
+      }
+    },
+    {
+      "id": "Scheme:Reservation for Micro , Small and Medium Enterprises in SIPCOT Industrial Estates",
+      "label": "Scheme",
+      "name": "Reservation for Micro , Small and Medium Enterprises in SIPCOT Industrial Estates",
+      "properties": {
+        "sponsored_by": "State",
+        "funding_pattern": "Quantum of incentives 20% of the area",
+        "benefit_type": "Incentives",
+        "description": "All new / expansion schemes of SIPCOT Industrial Estates",
+        "how_to_avail": "To apply to SIPCOT",
+        "source_url": "https://www.tn.gov.in/scheme_details.php?id=MTY3"
+      }
+    },
+    {
+      "id": "Scheme:Organizing Block  Demonstration through  Department and also  through TNAU",
+      "label": "Scheme",
+      "name": "Organizing Block  Demonstration through  Department and also  through TNAU",
+      "properties": {
+        "sponsored_by": "State",
+        "funding_pattern": "Rs.4000/-per demonstration of 1 ha. each",
+        "benefit_type": "Grants",
+        "description": "All maize growing farmers are eligible to avail of the subsidy under this scheme in the Districts of Coimbatore, Dindigul, Erode, Dharmapuri, Krishnagiri, Namakkal, Perambalur, Virudhunagar, Theni, Villupuram, Vellore, Salem, Pudukkottai, Madurai, Sivagangai, Trichy, Tirunelveli and Thoothukudi. Preference will be given to Small/Marginal farmers 24% flow to SC/ST farmers will be ensured 20% flow to women farmers/ women groups",
+        "how_to_avail": "The application is to be submitted to: Assistant Agricultural officer at the Village Level Agricultural Officer / Deputy Agricultural Officer at the Block Level The Assistant Director of Agriculture at the Block Level The Joint Director of Agriculture at the District Level",
+        "source_url": "https://www.tn.gov.in/scheme_details.php?id=MTE0Mw=="
+      }
+    },
+    {
+      "id": "Scheme:Generator subsidy",
+      "label": "Scheme",
+      "name": "Generator subsidy",
+      "properties": {
+        "sponsored_by": "State",
+        "funding_pattern": "25% on the cost of the generator sets upto 125 KVA capacity",
+        "benefit_type": "Subsidy",
+        "description": "Anywhere in the State",
+        "how_to_avail": "Within six months from the date of purchase of the generator set or date of installation of the generator set, whichever is later.",
+        "source_url": "https://www.tn.gov.in/scheme_details.php?id=MTU="
+      }
+    },
+    {
+      "id": "Scheme:Production of Certified Seeds",
+      "label": "Scheme",
+      "name": "Production of Certified Seeds",
+      "properties": {
+        "sponsored_by": "State",
+        "funding_pattern": "A subsidy of Rs.1000/- per quintal",
+        "benefit_type": "Subsidy",
+        "description": "All farmers who raise seed farms with Pulses crop are eligible to avail the subsidy subject to availability of funds. SC/ST 24%, Farm Women 20%",
+        "how_to_avail": "The Application is to be submitted to: Assistant Agricultural officer at the Village Level Agricultural Officer / Deputy Agricultural Officer at the Block Level The Assistant Director of Agriculture at the Block Level The Joint Director of Agriculture at the District Level",
+        "source_url": "https://www.tn.gov.in/scheme_details.php?id=MTQyMQ=="
+      }
+    },
+    {
+      "id": "Scheme:Organizing Block demonstration on Polythene mulch Technology in Groundnut",
+      "label": "Scheme",
+      "name": "Organizing Block demonstration on Polythene mulch Technology in Groundnut",
+      "properties": {
+        "sponsored_by": "State",
+        "funding_pattern": "an assistance of Rs.4000/- towards the cost of inputs to organize the demonstration and Rs.4000/- to cover the land with Polythene sheet per ha will be provided.",
+        "benefit_type": "Grants",
+        "description": "Those farmers who produce and supply Foundation and Certified Class seeds to the Department are elligible to avail of the benefit",
+        "how_to_avail": "Application is to be submitted to: Assistant Agricultural officer at the Village Level Agricultural Officer / Deputy Agricultural Officer at the Block Level The Assistant Director of Agriculture at the Block Level The Joint Director of Agriculture at the District Level",
+        "source_url": "https://www.tn.gov.in/scheme_details.php?id=MTUwMg=="
+      }
+    },
+    {
+      "id": "Scheme:Special capital subsidy for thrust sector enterprises",
+      "label": "Scheme",
+      "name": "Special capital subsidy for thrust sector enterprises",
+      "properties": {
+        "sponsored_by": "State",
+        "funding_pattern": "15% of Plant and Machinery value",
+        "benefit_type": "Subsidy",
+        "description": "For 13 identified thrust sectors viz:- 1.Electrical and Electronics Industry 2. Leather and Leather goods. 3.Auto parts and components 4.Drugs and Pharmaceuticals 5. Solar Energy Equipment 6.Gold and Diamond Jewellery for exports 7. Pollution Control Equipments. 8. Sports Goods and Accessories. 9. Cost effective building material. 10. Readymade Garments. 11. Food Processing. 12. Plastic. 13. Rubber. 14. Any other industries to be notified by the Government from time to time.",
+        "how_to_avail": "Within one year from the Date of commencement of Production",
+        "source_url": "https://www.tn.gov.in/scheme_details.php?id=MTQ="
+      }
+    },
+    {
+      "id": "Scheme:Distribution of Minikits  at free of cost",
+      "label": "Scheme",
+      "name": "Distribution of Minikits  at free of cost",
+      "properties": {
+        "sponsored_by": "State",
+        "funding_pattern": "100%",
+        "benefit_type": "Grants",
+        "description": "All maize growing farmers are eligible to avail of the subsidy under this scheme in the Districts of Coimbatore, Dindigul, Erode, Dharmapuri, Krishnagiri, Namakkal, Perambalur, Virudhunagar, Theni, Villupuram, Vellore, Salem, Pudukkottai, Madurai, Sivagangai, Trichy, Tirunelveli and Thoothukudi. Preference will be given to Small/Marginal farmers 24% flow to SC/ST farmers will be ensured 20% flow to women farmers/ women groups",
+        "how_to_avail": "The application is to be submitted to: Assistant Agricultural officer at the Village Level Agricultural Officer / Deputy Agricultural Officer at the Block Level The Assistant Director of Agriculture at the Block Level The Joint Director of Agriculture at the District Level",
+        "source_url": "https://www.tn.gov.in/scheme_details.php?id=ODIy"
+      }
+    },
+    {
+      "id": "Scheme:Rebate on Stamp duty and registration charges for Privately Developed Industrial Estates",
+      "label": "Scheme",
+      "name": "Rebate on Stamp duty and registration charges for Privately Developed Industrial Estates",
+      "properties": {
+        "sponsored_by": "State",
+        "funding_pattern": "50% rebate on stamp duty and registration charges.",
+        "benefit_type": "Incentives",
+        "description": "Outside a radius of 30 kms from Chennai City Centre",
+        "how_to_avail": "To apply to SIPCOT",
+        "source_url": "https://www.tn.gov.in/scheme_details.php?id=Mg=="
+      }
+    },
+    {
+      "id": "Scheme:Unemployed Youth Employment Generation Programme (UYEGP)",
+      "label": "Scheme",
+      "name": "Unemployed Youth Employment Generation Programme (UYEGP)",
+      "properties": {
+        "sponsored_by": "State",
+        "funding_pattern": "15% of Project Cost",
+        "benefit_type": "Subsidy",
+        "description": "Anywhere in Tamil Nadu",
+        "how_to_avail": "Embedded in UYEGP Scheme itself",
+        "source_url": "https://www.tn.gov.in/scheme_details.php?id=MzM="
+      }
+    },
+    {
+      "id": "Scheme:Seed Multiplication Scheme of Paddy, Millets, Pulses, Oilseeds and Cotton",
+      "label": "Scheme",
+      "name": "Seed Multiplication Scheme of Paddy, Millets, Pulses, Oilseeds and Cotton",
+      "properties": {
+        "sponsored_by": "State",
+        "funding_pattern": "Premium ranges from Re.1 /- to Rs. 3 /- per Kg of seeds Premium for the production of Foundation class @ 7.5% to 30% over and above Local Market Rate and Certified class @ 5% to 20% over and above Local Market Rate per Kg of seed based on the oil seed",
+        "benefit_type": "Subsidy",
+        "description": "All farmers who produce and supply the seeds to the Department of Agriculture on Contract basis are eligible to enroll and register their seed farms under this programme. Separate allocation will be provided to SC/ST seed growers. Preference will be given to farm All farmers who produce and supply the seeds to the Department of Agriculture on Contract basis are eligible to enroll and register their seed farms under this programme. Separate allocation will be provided to SC/ST seed growers. Preference will be given to farm women groups, Farmers Interest Groups. The farmer so desirous of enrolling himself / herself will be given a training by the authorities concerned at the beginning of each year The required source seed will be supplied by the Department of Agriculture through the Agricultural Extension Centres on payment of the Cost of the seed as per the sale price fixed by the Department. The seeds supplied will have the Certification Tag issued by the Department of Seed Certification The farmers should follow the guidelines given by the field level functionaries / Seed Certification officers to maintain the Quality. The seed Farms should be registered by the Seed Producer viz., the Assistant Director of Agriculture of the respective Blocks on payment of the requisite fees On satisfactorily fulfillment of the field standard during the entire period of the crop, the produce will be declared fit at the field level. This produce is called the Field Run Produce This produce has to satisfy the standards of physical/ genetic purity, moisture levels and germination percentage as prescribed in the Certification standards The produce after inspection by the Seed Certification Officer and with due permission will be moved to the nearest Seed Processing Unit owned by the Department of Agriculture The farmer should bear the transport cost for the transport of the seed to the Seed Processing Unit. After moving the seed to the Seed Processing Unit, initially the farmer will be paid 90% of the Minimum Support Price as declared by the Civil Supplies Department The seeds will be processed in the Seed Processing Unit in the presence of the Seed Certification Officer. On completion of the processing, sample will be drawn by the Seed Certification Officer to test the quality. This sample will be sent to the concerned Seed Testing Lab for testing. The test results will be declared on completion of the testing at the Seed Testing Labs If the seed lot fails to confirm the standards, the farmer has to repay the entire advance paid to him / her in one installment before getting back the stock. On declaration of the results by the authorities as standard the produce will be considered as Seed material Now the farmer is entitled for full payment of the cost for seeds as per the Procurement price fixed for each crop and its class. The farmer will be paid the difference of cost between the full cost eligible and the amount of advance paid as 90%.",
+        "how_to_avail": "The application is to be submitted to Assistant Agricultural officer at the Village Level Agricultural Officer / Deputy Agricultural Officer at the Block Level The Assistant Director of Agriculture at the Block Level The Joint Director of Agriculture at the District Level",
+        "source_url": "https://www.tn.gov.in/scheme_details.php?id=MTM5OQ=="
+      }
+    },
+    {
+      "id": "Scheme:Price Preference for Micro and Small Enterprises in Government purchases",
+      "label": "Scheme",
+      "name": "Price Preference for Micro and Small Enterprises in Government purchases",
+      "properties": {
+        "sponsored_by": "State",
+        "funding_pattern": "Upto 15% as provided in the Tamil Nadu Transparency in Tenders Act 1998.",
+        "benefit_type": "Subsidy",
+        "description": "Anywhere in the State",
+        "how_to_avail": "On participation in the Tender",
+        "source_url": "https://www.tn.gov.in/scheme_details.php?id=MjE="
+      }
+    },
+    {
+      "id": "Scheme:Farmers Training",
+      "label": "Scheme",
+      "name": "Farmers Training",
+      "properties": {
+        "sponsored_by": "State",
+        "funding_pattern": "Rs.5000/-",
+        "benefit_type": "Grants",
+        "description": "50 farmers / Agricultural labourers will be trained in a cluster with the financial assistance of Rs.5000/- per training.",
+        "how_to_avail": "The application is to be submitted to: Assistant Agricultural officer at the Village Level Agricultural Officer / Deputy Agricultural Officer at the Block Level The Assistant Director of Agriculture at the Block Level The Joint Director of Agriculture at the District Level",
+        "source_url": "https://www.tn.gov.in/scheme_details.php?id=MTA0NA=="
+      }
+    },
+    {
+      "id": "Scheme:Farm Production System and micro enterprises - Sponsored By State Govt",
+      "label": "Scheme",
+      "name": "Farm Production System and micro enterprises - Sponsored By State Govt",
+      "properties": {
+        "sponsored_by": "State",
+        "funding_pattern": "Subsidy :1560/-",
+        "benefit_type": "Subsidy",
+        "description": "Demonstration for popularizing new crops/ varieties, and new technologies in Agriculture and allied sectors. Diversification of production systems like Dryland Horticulture, Agro Forestry, Household production system,Adoption of proven technology, activities like INM, IPM, Fodder development, Organic farming, Multiple cropping, Improved inter cropping seed village concept, Fisheries development in village ponds, farm ponds and tanks, Sericulture, back yard poultry,Livestock management and other micro enterprises etc. are carried out under this component.",
+        "how_to_avail": "1)Chairman / District Collector, 2)Project Officer /Joint Director of Agriculture , DWDA, (PIA) at District level. 1)Chief Executive Officer, State Level Nodal Agency, Chennai-32 (at State level)",
+        "source_url": "https://www.tn.gov.in/scheme_details.php?id=MTE3"
+      }
+    },
+    {
+      "id": "Scheme:Waiver of Earnest Money Deposit for participation in Tenders",
+      "label": "Scheme",
+      "name": "Waiver of Earnest Money Deposit for participation in Tenders",
+      "properties": {
+        "sponsored_by": "State",
+        "funding_pattern": "On items notified by the Government from time to time",
+        "benefit_type": "Subsidy",
+        "description": "Anywhere in the State",
+        "how_to_avail": "On participation in the Tender",
+        "source_url": "https://www.tn.gov.in/scheme_details.php?id=MjQ="
+      }
+    },
+    {
+      "id": "Scheme:Distribution of Certified  Seeds of maize",
+      "label": "Scheme",
+      "name": "Distribution of Certified  Seeds of maize",
+      "properties": {
+        "sponsored_by": "State",
+        "funding_pattern": "50% of the cost of the seed subject to a maximum of Rs.1200/-per Quintal whichever is less",
+        "benefit_type": "Subsidy",
+        "description": "All maize growing farmers are eligible to avail of the subsidy under this scheme in the Districts of Coimbatore, Dindigul, Erode, Dharmapuri, Krishnagiri, Namakkal, Perambalur, Virudhunagar, Theni, Villupuram, Vellore, Salem, Pudukkottai, Madurai, Sivagangai, Trichy, Tirunelveli and Thoothukudi. Preference will be given to Small/Marginal farmers 24% flow to SC/ST farmers will be ensured 20% flow to women farmers/ women groups",
+        "how_to_avail": "The application is to be submitted to: Assistant Agricultural officer at the Village Level Agricultural Officer / Deputy Agricultural Officer at the Block Level The Assistant Director of Agriculture at the Block Level The Joint Director of Agriculture at the District Level",
+        "source_url": "https://www.tn.gov.in/scheme_details.php?id=MTQyMw=="
+      }
+    },
+    {
+      "id": "Scheme:Subsidy on the cost of Patent Registration in India or abroad",
+      "label": "Scheme",
+      "name": "Subsidy on the cost of Patent Registration in India or abroad",
+      "properties": {
+        "sponsored_by": "State",
+        "funding_pattern": "50% on the cost of filing Patent Registration application",
+        "benefit_type": "Subsidy",
+        "description": "Anywhere in the State",
+        "how_to_avail": "Within 6 months from the date of receipt of Patent Registration",
+        "source_url": "https://www.tn.gov.in/scheme_details.php?id=MjU="
+      }
+    },
+    {
+      "id": "Scheme:Organizing Block Demonstration",
+      "label": "Scheme",
+      "name": "Organizing Block Demonstration",
+      "properties": {
+        "sponsored_by": "State",
+        "funding_pattern": "A subsidy of 50% on the cost of inputs required to layout the demonstration of 5 ha each or Rs.2000/- whichever is less",
+        "benefit_type": "Subsidy",
+        "description": "All farmers who raise seed farms with Pulses crop are eligible to avail the subsidy subject to availability of funds SC/ST 24%,  Farm Women 20%",
+        "how_to_avail": "The Application is to be submitted to: Assistant Agricultural officer at the Village Level Agricultural Officer / Deputy Agricultural Officer at the Block Level The Assistant Director of Agriculture at the Block Level The Joint Director of Agriculture at the District Level",
+        "source_url": "https://www.tn.gov.in/scheme_details.php?id=MTIyOA=="
+      }
+    },
+    {
+      "id": "Scheme:Reservation for Micro Enterprises in TANSIDCO Industrial Estates",
+      "label": "Scheme",
+      "name": "Reservation for Micro Enterprises in TANSIDCO Industrial Estates",
+      "properties": {
+        "sponsored_by": "State",
+        "funding_pattern": "Quantum of incentives-30% of the area",
+        "benefit_type": "Incentives",
+        "description": "All TANSIDCO Industrial Estates",
+        "how_to_avail": "To apply to SIDCO",
+        "source_url": "https://www.tn.gov.in/scheme_details.php?id=MTY2"
+      }
+    },
+    {
+      "id": "Scheme:Reimbursement of hall rent for conducting exhibition by MSME Association",
+      "label": "Scheme",
+      "name": "Reimbursement of hall rent for conducting exhibition by MSME Association",
+      "properties": {
+        "sponsored_by": "State",
+        "funding_pattern": "50% on hall rent",
+        "benefit_type": "Subsidy",
+        "description": "Anywhere in the State",
+        "how_to_avail": "Not applicable",
+        "source_url": "https://www.tn.gov.in/scheme_details.php?id=MjY="
+      }
+    },
+    {
+      "id": "Scheme:Term loan obtained under NEF scheme of TIIC (Renamed as Micro/Small Enterprises Funding Scheme)",
+      "label": "Scheme",
+      "name": "Term loan obtained under NEF scheme of TIIC (Renamed as Micro/Small Enterprises Funding Scheme)",
+      "properties": {
+        "sponsored_by": "State",
+        "funding_pattern": "3% of the interest on term loan.",
+        "benefit_type": "Incentives",
+        "description": "Anywhere in the State",
+        "how_to_avail": "On quarterly basis through the respective financial institutions.",
+        "source_url": "https://www.tn.gov.in/scheme_details.php?id=MTc="
+      }
+    },
+    {
+      "id": "Scheme:Low Tension power tariff subsidy",
+      "label": "Scheme",
+      "name": "Low Tension power tariff subsidy",
+      "properties": {
+        "sponsored_by": "State",
+        "funding_pattern": "20% on power consumption charges for 36 months from Date of Commence -ment of Production or date of power connection whichever is later.",
+        "benefit_type": "Subsidy",
+        "description": "251 industrially backward blocks as listed in Annexure I and Industrial Estates promoted by the Government and Agencies like SIPCOT, TANSIDCO (excluding industrial estates located within the radius of 50 kms from Chennai City Centre) All 385 blocks in the State for Agro based enterprises",
+        "how_to_avail": "1.For issue of Eligibility Certificate (EC) Within three months from the date of commencement of production or date of power connection, whichever is later. 2. For submission of subsidy claims The first claim should be preferred within 30 days from the date of issue of EC. Subsequent claims should be submitted once in six months i.e. the bills raised by TNEB from January to June should be preferred before August 31st of the year and from July to December before 28th of February of the succeeding year",
+        "source_url": "https://www.tn.gov.in/scheme_details.php?id=MTM="
+      }
+    },
+    {
+      "id": "Scheme:Subsidy on the cost of Trade Mark Registration in India or abroad",
+      "label": "Scheme",
+      "name": "Subsidy on the cost of Trade Mark Registration in India or abroad",
+      "properties": {
+        "sponsored_by": "State",
+        "funding_pattern": "50% on the cost of filing Trade Mark Registration application",
+        "benefit_type": "Subsidy",
+        "description": "Anywhere in the State",
+        "how_to_avail": "Within 6 months from the date of receipt of Trade Mark registration",
+        "source_url": "https://www.tn.gov.in/scheme_details.php?id=Mjc="
+      }
+    },
+    {
+      "id": "Scheme:Farmers Interest Group  (FIG)",
+      "label": "Scheme",
+      "name": "Farmers Interest Group  (FIG)",
+      "properties": {
+        "sponsored_by": "State",
+        "funding_pattern": "Rs. 400 /- to Rs. 20,000/-",
+        "benefit_type": "Grants",
+        "description": "15 farmers per group) for Agricultural crops. An assistance of Rs.5000 per group towards purchase of office equipments, purchase of technical bulletins and setting up of Library - Training and acquisition of skills by farmer Members @ Rs.4000/- per group,issue of ID cards @ Rs.400/- per group and for district level meeting @Rs.20,000/- per meeting",
+        "how_to_avail": "The application is to be submitted to: Assistant Agricultural officer at the Village Level Agricultural Officer / Deputy Agricultural Officer at the Block Level The Assistant Director of Agriculture at the Block Level The Joint Director of Agriculture at the District Level",
+        "source_url": "https://www.tn.gov.in/scheme_details.php?id=MTA5Mw=="
+      }
+    },
+    {
+      "id": "Scheme:Pipes carrying water  from source to field",
+      "label": "Scheme",
+      "name": "Pipes carrying water  from source to field",
+      "properties": {
+        "sponsored_by": "State",
+        "funding_pattern": "subsidy on 50% cost or Rs.15000 for water carrying pipes upto 800m and all types of pipes(PVC HDPE etc.,) and all size as per the requirement of the farmer.",
+        "benefit_type": "Subsidy",
+        "description": "All farmers are eligible limited to target 24% flow to SC/ST farmers will be ensured 20% flow to women farmers/ women groups",
+        "how_to_avail": "The application is to be submitted to: Assistant Agricultural officer at the Village Level Agricultural Officer / Deputy Agricultural Officer at the Block Level The Assistant Director of Agriculture at the Block Level The Joint Director of Agriculture at the District Level",
+        "source_url": "https://www.tn.gov.in/scheme_details.php?id=MTU2OQ=="
+      }
+    },
+    {
+      "id": "Scheme:Term loan obtained for Technology upgradation / modernisation schemes",
+      "label": "Scheme",
+      "name": "Term loan obtained for Technology upgradation / modernisation schemes",
+      "properties": {
+        "sponsored_by": "State",
+        "funding_pattern": "3% of the interest on term loan.",
+        "benefit_type": "Incentives",
+        "description": "Anywhere in the State",
+        "how_to_avail": "On quarterly basis through the respective financial institutions.",
+        "source_url": "https://www.tn.gov.in/scheme_details.php?id=MTY="
+      }
+    },
+    {
+      "id": "Scheme:Livelihood activities for asset less persons - Sponsored By State Govt",
+      "label": "Scheme",
+      "name": "Livelihood activities for asset less persons - Sponsored By State Govt",
+      "properties": {
+        "sponsored_by": "State",
+        "funding_pattern": "Subsidy :1200/-",
+        "benefit_type": "Subsidy",
+        "description": "Loan assistance to Income Generation activities and Revolving Fund to Self Help Groups.",
+        "how_to_avail": "1)Chairman / District Collector, 2)Project Officer /Joint Director of Agriculture , DWDA, (PIA) at District level. 1)Chief Executive Officer, State Level Nodal Agency, Chennai-32 (at State level)",
+        "source_url": "https://www.tn.gov.in/scheme_details.php?id=MTE4"
+      }
+    },
+    {
+      "id": "Scheme:Skill Development Training Schemes and Skill Upgradation Training Schemes",
+      "label": "Scheme",
+      "name": "Skill Development Training Schemes and Skill Upgradation Training Schemes",
+      "properties": {
+        "sponsored_by": "State",
+        "funding_pattern": "Reimburseme nt upto 50% of the tuition fees",
+        "benefit_type": "Incentives",
+        "description": "Skill Development training Schemes for the benefit of educated unemployed youth and Skill Upgradation training  Schemes for upgrading skills of existing employees of Micro, Small and Medium Manufacturing Enterprises. Anywhere in the State",
+        "how_to_avail": "Not applicable.",
+        "source_url": "https://www.tn.gov.in/scheme_details.php?id=MzE="
+      }
+    },
+    {
+      "id": "Scheme:Micro Nutrient spray",
+      "label": "Scheme",
+      "name": "Micro Nutrient spray",
+      "properties": {
+        "sponsored_by": "State",
+        "funding_pattern": "A subsidy of 50% or Rs.70/- per ha whichever is less.",
+        "benefit_type": "Subsidy",
+        "description": "All farmers are eligible limited to target 24% flow to SC/ST farmers will be ensured 20% flow to women farmers/ women groups",
+        "how_to_avail": "The Application is to be submitted to: Assistant Agricultural officer at the Village Level Agricultural Officer / Deputy Agricultural Officer at the Block Level The Assistant Director of Agriculture at the Block Level The Joint Director of Agriculture at the District Level",
+        "source_url": "https://www.tn.gov.in/scheme_details.php?id=MTI1NA=="
+      }
+    },
+    {
+      "id": "Scheme:Term loan obtained under Credit Guarantee Fund Trust Scheme",
+      "label": "Scheme",
+      "name": "Term loan obtained under Credit Guarantee Fund Trust Scheme",
+      "properties": {
+        "sponsored_by": "State",
+        "funding_pattern": "3% of the interest on term loan.",
+        "benefit_type": "Incentives",
+        "description": "Anywhere in the State",
+        "how_to_avail": "On quarterly basis through the respective financial institutions.",
+        "source_url": "https://www.tn.gov.in/scheme_details.php?id=MTk="
+      }
+    },
+    {
+      "id": "Scheme:Visit of Contract Farming  farmers to the Research  Stations in Karnataka",
+      "label": "Scheme",
+      "name": "Visit of Contract Farming  farmers to the Research  Stations in Karnataka",
+      "properties": {
+        "sponsored_by": "State",
+        "funding_pattern": "Rs.1,12,500 per batch of 50 farmers for 3 days.",
+        "benefit_type": "Grants",
+        "description": "All farmers are eligible limited to target 24% flow to SC/ST farmers will be ensured 20% flow to women farmers/ women groups",
+        "how_to_avail": "The application is to be submitted to: Assistant Agricultural officer at the Village Level Agricultural Officer / Deputy Agricultural Officer at the Block Level The Assistant Director of Agriculture at the Block Level The Joint Director of Agriculture at the District Level",
+        "source_url": "https://www.tn.gov.in/scheme_details.php?id=ODk5"
+      }
+    },
+    {
+      "id": "Scheme:Term loan obtained for ISO Certification/R&D under NSICTANSIDCO Consortium",
+      "label": "Scheme",
+      "name": "Term loan obtained for ISO Certification/R&D under NSICTANSIDCO Consortium",
+      "properties": {
+        "sponsored_by": "State",
+        "funding_pattern": "3% of the interest on term loan.",
+        "benefit_type": "Subsidy",
+        "description": "Anywhere in the State",
+        "how_to_avail": "On quarterly basis through the respective financial institutions.",
+        "source_url": "https://www.tn.gov.in/scheme_details.php?id=MTg="
+      }
+    },
+    {
+      "id": "Scheme:Integrated Pest  Management Demonstration  cum Training",
+      "label": "Scheme",
+      "name": "Integrated Pest  Management Demonstration  cum Training",
+      "properties": {
+        "sponsored_by": "State",
+        "funding_pattern": "Rs.17000/- for 30 Farmers",
+        "benefit_type": "Grants",
+        "description": "A lumpsum provision of Rs.17,000 is allowed towards Demonstration of 40 Ha. each and Training per Farmers Field School through cluster approach.",
+        "how_to_avail": "The application is to be submitted to: Assistant Agricultural officer at the Village Level Agricultural Officer / Deputy Agricultural Officer at the Block Level The Assistant Director of Agriculture at the Block Level The Joint Director of Agriculture at the District Level",
+        "source_url": "https://www.tn.gov.in/scheme_details.php?id=MTQ2MQ=="
+      }
+    },
+    {
+      "id": "Scheme:Stamp duty exemption on mortgaged and pledged documents",
+      "label": "Scheme",
+      "name": "Stamp duty exemption on mortgaged and pledged documents",
+      "properties": {
+        "sponsored_by": "State",
+        "funding_pattern": "Quantum of incentives-100%",
+        "benefit_type": "Incentives",
+        "description": "Any where in the state",
+        "how_to_avail": "1.For issue of Eligibility Certificate (EC) Within three months from the date of commencement of production or date of power connection,whichever is later. 2. For submission of subsidy claims The first claim should be preferred within 30 days from the date of issue of EC.Subsequent claims should be submitted once in six months i.e. the bills raised by Tamil Nadu Generation and Distribution Corporation Limited from January to June should be preferred before August 31st of the year and from July to December  before 28th of February of the succeeding year.",
+        "source_url": "https://www.tn.gov.in/scheme_details.php?id=OA=="
+      }
+    },
+    {
+      "id": "Scheme:Distribution of Gypsum - Oil Seeds",
+      "label": "Scheme",
+      "name": "Distribution of Gypsum - Oil Seeds",
+      "properties": {
+        "sponsored_by": "State",
+        "funding_pattern": "50% of the cost of material plus transport limited to Rs. 750/- per ha whichever is less.",
+        "benefit_type": "Subsidy",
+        "description": "Those farmers who produce and supply Foundation and Certified Class seeds to the Department are elligible to avail of the benefit",
+        "how_to_avail": "Application is to be submitted to: Assistant Agricultural officer at the Village Level Agricultural Officer / Deputy Agricultural Officer at the Block Level The Assistant Director of Agriculture at the Block Level The Joint Director of Agriculture at the District Level",
+        "source_url": "https://www.tn.gov.in/scheme_details.php?id=MTU0NA=="
+      }
+    },
+    {
+      "id": "Scheme:Production of Certified  Seeds of Maize",
+      "label": "Scheme",
+      "name": "Production of Certified  Seeds of Maize",
+      "properties": {
+        "sponsored_by": "State",
+        "funding_pattern": "Rs.1000/- per Quintal",
+        "benefit_type": "Subsidy",
+        "description": "All maize growing farmers are eligible to avail of the subsidy under this scheme in the Districts of Coimbatore, Dindigul, Erode, Dharmapuri, Krishnagiri, Namakkal, Perambalur, Virudhunagar, Theni, Villupuram, Vellore, Salem, Pudukkottai, Madurai, Sivagangai, Trichy, Tirunelveli and Thoothukudi. Preference will be given to Small/Marginal farmers 24% flow to SC/ST farmers will be ensured 20% flow to women farmers/ women groups",
+        "how_to_avail": "The application is to be submitted to: Assistant Agricultural officer at the Village Level Agricultural Officer / Deputy Agricultural Officer at the Block Level The Assistant Director of Agriculture at the Block Level The Joint Director of Agriculture at the District Level",
+        "source_url": "https://www.tn.gov.in/scheme_details.php?id=OTAw"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Scheme:Training to Farmers",
+      "type": "BELONGS_TO",
+      "target": "Department:Agriculture - Farmers Welfare Department"
+    },
+    {
+      "source": "Scheme:Training to Farmers",
+      "type": "HAS_BENEFICIARY",
+      "target": "Beneficiary:Farmers"
+    },
+    {
+      "source": "Scheme:Training to Farmers",
+      "type": "PROVIDES_BENEFIT_TYPE",
+      "target": "BenefitType:Grants"
+    },
+    {
+      "source": "Scheme:Production of Foundation and Certified Seeds",
+      "type": "BELONGS_TO",
+      "target": "Department:Agriculture - Farmers Welfare Department"
+    },
+    {
+      "source": "Scheme:Production of Foundation and Certified Seeds",
+      "type": "HAS_BENEFICIARY",
+      "target": "Beneficiary:Farmers"
+    },
+    {
+      "source": "Scheme:Production of Foundation and Certified Seeds",
+      "type": "PROVIDES_BENEFIT_TYPE",
+      "target": "BenefitType:Subsidy"
+    },
+    {
+      "source": "Scheme:Distribution of Nuclear Poly Hedrosis Virus",
+      "type": "BELONGS_TO",
+      "target": "Department:Agriculture - Farmers Welfare Department"
+    },
+    {
+      "source": "Scheme:Distribution of Nuclear Poly Hedrosis Virus",
+      "type": "HAS_BENEFICIARY",
+      "target": "Beneficiary:Farmers"
+    },
+    {
+      "source": "Scheme:Distribution of Nuclear Poly Hedrosis Virus",
+      "type": "PROVIDES_BENEFIT_TYPE",
+      "target": "BenefitType:Subsidy"
+    },
+    {
+      "source": "Scheme:Distribution of Rhizobium Packets - Oilseeds",
+      "type": "BELONGS_TO",
+      "target": "Department:Agriculture - Farmers Welfare Department"
+    },
+    {
+      "source": "Scheme:Distribution of Rhizobium Packets - Oilseeds",
+      "type": "HAS_BENEFICIARY",
+      "target": "Beneficiary:Farmers"
+    },
+    {
+      "source": "Scheme:Distribution of Rhizobium Packets - Oilseeds",
+      "type": "PROVIDES_BENEFIT_TYPE",
+      "target": "BenefitType:Subsidy"
+    },
+    {
+      "source": "Scheme:Livelihood activities for asset less persons-2012",
+      "type": "BELONGS_TO",
+      "target": "Department:Agriculture - Farmers Welfare Department"
+    },
+    {
+      "source": "Scheme:Livelihood activities for asset less persons-2012",
+      "type": "HAS_BENEFICIARY",
+      "target": "Beneficiary:Farmers"
+    },
+    {
+      "source": "Scheme:Livelihood activities for asset less persons-2012",
+      "type": "PROVIDES_BENEFIT_TYPE",
+      "target": "BenefitType:Subsidy"
+    },
+    {
+      "source": "Scheme:Infrastructure subsidy for Privately Developed Industrial Estates.",
+      "type": "BELONGS_TO",
+      "target": "Department:Agriculture - Farmers Welfare Department"
+    },
+    {
+      "source": "Scheme:Infrastructure subsidy for Privately Developed Industrial Estates.",
+      "type": "HAS_BENEFICIARY",
+      "target": "Beneficiary:Farmers"
+    },
+    {
+      "source": "Scheme:Infrastructure subsidy for Privately Developed Industrial Estates.",
+      "type": "PROVIDES_BENEFIT_TYPE",
+      "target": "BenefitType:Incentives"
+    },
+    {
+      "source": "Scheme:Production of Foundation Seeds",
+      "type": "BELONGS_TO",
+      "target": "Department:Agriculture - Farmers Welfare Department"
+    },
+    {
+      "source": "Scheme:Production of Foundation Seeds",
+      "type": "HAS_BENEFICIARY",
+      "target": "Beneficiary:Farmers"
+    },
+    {
+      "source": "Scheme:Production of Foundation Seeds",
+      "type": "PROVIDES_BENEFIT_TYPE",
+      "target": "BenefitType:Subsidy"
+    },
+    {
+      "source": "Scheme:Distribution of Gypsum",
+      "type": "BELONGS_TO",
+      "target": "Department:Agriculture - Farmers Welfare Department"
+    },
+    {
+      "source": "Scheme:Distribution of Gypsum",
+      "type": "HAS_BENEFICIARY",
+      "target": "Beneficiary:Farmers"
+    },
+    {
+      "source": "Scheme:Distribution of Gypsum",
+      "type": "PROVIDES_BENEFIT_TYPE",
+      "target": "BenefitType:Subsidy"
+    },
+    {
+      "source": "Scheme:Distribution of manually operated Plant Protection Equipment",
+      "type": "BELONGS_TO",
+      "target": "Department:Agriculture - Farmers Welfare Department"
+    },
+    {
+      "source": "Scheme:Distribution of manually operated Plant Protection Equipment",
+      "type": "HAS_BENEFICIARY",
+      "target": "Beneficiary:Farmers"
+    },
+    {
+      "source": "Scheme:Distribution of manually operated Plant Protection Equipment",
+      "type": "PROVIDES_BENEFIT_TYPE",
+      "target": "BenefitType:Subsidy"
+    },
+    {
+      "source": "Scheme:Pipes carrying water from source to field - Pulses ISPOM",
+      "type": "BELONGS_TO",
+      "target": "Department:Agriculture - Farmers Welfare Department"
+    },
+    {
+      "source": "Scheme:Pipes carrying water from source to field - Pulses ISPOM",
+      "type": "HAS_BENEFICIARY",
+      "target": "Beneficiary:Farmers"
+    },
+    {
+      "source": "Scheme:Pipes carrying water from source to field - Pulses ISPOM",
+      "type": "PROVIDES_BENEFIT_TYPE",
+      "target": "BenefitType:Subsidy"
+    },
+    {
+      "source": "Scheme:Technology Development Fund for evolving cleaner and / or energy efficient or IT enabled technologies for Micro, Small & Medium Manufacturing Sector.",
+      "type": "BELONGS_TO",
+      "target": "Department:Agriculture - Farmers Welfare Department"
+    },
+    {
+      "source": "Scheme:Technology Development Fund for evolving cleaner and / or energy efficient or IT enabled technologies for Micro, Small & Medium Manufacturing Sector.",
+      "type": "HAS_BENEFICIARY",
+      "target": "Beneficiary:Manufacturers"
+    },
+    {
+      "source": "Scheme:Technology Development Fund for evolving cleaner and / or energy efficient or IT enabled technologies for Micro, Small & Medium Manufacturing Sector.",
+      "type": "PROVIDES_BENEFIT_TYPE",
+      "target": "BenefitType:Subsidy"
+    },
+    {
+      "source": "Scheme:Distribution of Rhizobium",
+      "type": "BELONGS_TO",
+      "target": "Department:Agriculture - Farmers Welfare Department"
+    },
+    {
+      "source": "Scheme:Distribution of Rhizobium",
+      "type": "HAS_BENEFICIARY",
+      "target": "Beneficiary:Farmers"
+    },
+    {
+      "source": "Scheme:Distribution of Rhizobium",
+      "type": "PROVIDES_BENEFIT_TYPE",
+      "target": "BenefitType:Subsidy"
+    },
+    {
+      "source": "Scheme:Distribution of Soil  Health card",
+      "type": "BELONGS_TO",
+      "target": "Department:Agriculture - Farmers Welfare Department"
+    },
+    {
+      "source": "Scheme:Distribution of Soil  Health card",
+      "type": "HAS_BENEFICIARY",
+      "target": "Beneficiary:Farmers"
+    },
+    {
+      "source": "Scheme:Distribution of Soil  Health card",
+      "type": "PROVIDES_BENEFIT_TYPE",
+      "target": "BenefitType:Subsidy"
+    },
+    {
+      "source": "Scheme:Rebate/ Reimbursement of Stamp duty & Registration charges for Micro and Small Enterprises",
+      "type": "BELONGS_TO",
+      "target": "Department:Agriculture - Farmers Welfare Department"
+    },
+    {
+      "source": "Scheme:Rebate/ Reimbursement of Stamp duty & Registration charges for Micro and Small Enterprises",
+      "type": "HAS_BENEFICIARY",
+      "target": "Beneficiary:Manufacturers"
+    },
+    {
+      "source": "Scheme:Rebate/ Reimbursement of Stamp duty & Registration charges for Micro and Small Enterprises",
+      "type": "PROVIDES_BENEFIT_TYPE",
+      "target": "BenefitType:Incentives"
+    },
+    {
+      "source": "Scheme:Training of Farmers on Pulses Production Technologies",
+      "type": "BELONGS_TO",
+      "target": "Department:Agriculture - Farmers Welfare Department"
+    },
+    {
+      "source": "Scheme:Training of Farmers on Pulses Production Technologies",
+      "type": "HAS_BENEFICIARY",
+      "target": "Beneficiary:Farmers"
+    },
+    {
+      "source": "Scheme:Training of Farmers on Pulses Production Technologies",
+      "type": "PROVIDES_BENEFIT_TYPE",
+      "target": "BenefitType:Grants"
+    },
+    {
+      "source": "Scheme:Subsidy on the assessed Value Added Tax (VAT)",
+      "type": "BELONGS_TO",
+      "target": "Department:Agriculture - Farmers Welfare Department"
+    },
+    {
+      "source": "Scheme:Subsidy on the assessed Value Added Tax (VAT)",
+      "type": "HAS_BENEFICIARY",
+      "target": "Beneficiary:Manufacturers"
+    },
+    {
+      "source": "Scheme:Subsidy on the assessed Value Added Tax (VAT)",
+      "type": "PROVIDES_BENEFIT_TYPE",
+      "target": "BenefitType:Subsidy"
+    },
+    {
+      "source": "Scheme:Distribution of Certified seeds - Oil Seeds",
+      "type": "BELONGS_TO",
+      "target": "Department:Agriculture - Farmers Welfare Department"
+    },
+    {
+      "source": "Scheme:Distribution of Certified seeds - Oil Seeds",
+      "type": "HAS_BENEFICIARY",
+      "target": "Beneficiary:Farmers"
+    },
+    {
+      "source": "Scheme:Distribution of Certified seeds - Oil Seeds",
+      "type": "PROVIDES_BENEFIT_TYPE",
+      "target": "BenefitType:Subsidy"
+    },
+    {
+      "source": "Scheme:Under Integrated Scheme for Oilseeds, Oilpalm and Maize (ISOPOM)",
+      "type": "BELONGS_TO",
+      "target": "Department:Agriculture - Farmers Welfare Department"
+    },
+    {
+      "source": "Scheme:Under Integrated Scheme for Oilseeds, Oilpalm and Maize (ISOPOM)",
+      "type": "HAS_BENEFICIARY",
+      "target": "Beneficiary:Farmers"
+    },
+    {
+      "source": "Scheme:Under Integrated Scheme for Oilseeds, Oilpalm and Maize (ISOPOM)",
+      "type": "PROVIDES_BENEFIT_TYPE",
+      "target": "BenefitType:Incentives"
+    },
+    {
+      "source": "Scheme:Quality Paddy seed Distribution",
+      "type": "BELONGS_TO",
+      "target": "Department:Agriculture - Farmers Welfare Department"
+    },
+    {
+      "source": "Scheme:Quality Paddy seed Distribution",
+      "type": "HAS_BENEFICIARY",
+      "target": "Beneficiary:Farmers"
+    },
+    {
+      "source": "Scheme:Quality Paddy seed Distribution",
+      "type": "PROVIDES_BENEFIT_TYPE",
+      "target": "BenefitType:Incentives"
+    },
+    {
+      "source": "Scheme:Reservation for Micro , Small and Medium Enterprises in SIPCOT Industrial Estates",
+      "type": "BELONGS_TO",
+      "target": "Department:Agriculture - Farmers Welfare Department"
+    },
+    {
+      "source": "Scheme:Reservation for Micro , Small and Medium Enterprises in SIPCOT Industrial Estates",
+      "type": "HAS_BENEFICIARY",
+      "target": "Beneficiary:Manufacturers"
+    },
+    {
+      "source": "Scheme:Reservation for Micro , Small and Medium Enterprises in SIPCOT Industrial Estates",
+      "type": "PROVIDES_BENEFIT_TYPE",
+      "target": "BenefitType:Incentives"
+    },
+    {
+      "source": "Scheme:Organizing Block  Demonstration through  Department and also  through TNAU",
+      "type": "BELONGS_TO",
+      "target": "Department:Agriculture - Farmers Welfare Department"
+    },
+    {
+      "source": "Scheme:Organizing Block  Demonstration through  Department and also  through TNAU",
+      "type": "HAS_BENEFICIARY",
+      "target": "Beneficiary:Farmers"
+    },
+    {
+      "source": "Scheme:Organizing Block  Demonstration through  Department and also  through TNAU",
+      "type": "PROVIDES_BENEFIT_TYPE",
+      "target": "BenefitType:Grants"
+    },
+    {
+      "source": "Scheme:Generator subsidy",
+      "type": "BELONGS_TO",
+      "target": "Department:Agriculture - Farmers Welfare Department"
+    },
+    {
+      "source": "Scheme:Generator subsidy",
+      "type": "HAS_BENEFICIARY",
+      "target": "Beneficiary:Manufacturers"
+    },
+    {
+      "source": "Scheme:Generator subsidy",
+      "type": "PROVIDES_BENEFIT_TYPE",
+      "target": "BenefitType:Subsidy"
+    },
+    {
+      "source": "Scheme:Production of Certified Seeds",
+      "type": "BELONGS_TO",
+      "target": "Department:Agriculture - Farmers Welfare Department"
+    },
+    {
+      "source": "Scheme:Production of Certified Seeds",
+      "type": "HAS_BENEFICIARY",
+      "target": "Beneficiary:Farmers"
+    },
+    {
+      "source": "Scheme:Production of Certified Seeds",
+      "type": "PROVIDES_BENEFIT_TYPE",
+      "target": "BenefitType:Subsidy"
+    },
+    {
+      "source": "Scheme:Organizing Block demonstration on Polythene mulch Technology in Groundnut",
+      "type": "BELONGS_TO",
+      "target": "Department:Agriculture - Farmers Welfare Department"
+    },
+    {
+      "source": "Scheme:Organizing Block demonstration on Polythene mulch Technology in Groundnut",
+      "type": "HAS_BENEFICIARY",
+      "target": "Beneficiary:Farmers"
+    },
+    {
+      "source": "Scheme:Organizing Block demonstration on Polythene mulch Technology in Groundnut",
+      "type": "PROVIDES_BENEFIT_TYPE",
+      "target": "BenefitType:Grants"
+    },
+    {
+      "source": "Scheme:Special capital subsidy for thrust sector enterprises",
+      "type": "BELONGS_TO",
+      "target": "Department:Agriculture - Farmers Welfare Department"
+    },
+    {
+      "source": "Scheme:Special capital subsidy for thrust sector enterprises",
+      "type": "HAS_BENEFICIARY",
+      "target": "Beneficiary:Manufacturers"
+    },
+    {
+      "source": "Scheme:Special capital subsidy for thrust sector enterprises",
+      "type": "PROVIDES_BENEFIT_TYPE",
+      "target": "BenefitType:Subsidy"
+    },
+    {
+      "source": "Scheme:Distribution of Minikits  at free of cost",
+      "type": "BELONGS_TO",
+      "target": "Department:Agriculture - Farmers Welfare Department"
+    },
+    {
+      "source": "Scheme:Distribution of Minikits  at free of cost",
+      "type": "HAS_BENEFICIARY",
+      "target": "Beneficiary:Farmers"
+    },
+    {
+      "source": "Scheme:Distribution of Minikits  at free of cost",
+      "type": "PROVIDES_BENEFIT_TYPE",
+      "target": "BenefitType:Grants"
+    },
+    {
+      "source": "Scheme:Rebate on Stamp duty and registration charges for Privately Developed Industrial Estates",
+      "type": "BELONGS_TO",
+      "target": "Department:Agriculture - Farmers Welfare Department"
+    },
+    {
+      "source": "Scheme:Rebate on Stamp duty and registration charges for Privately Developed Industrial Estates",
+      "type": "HAS_BENEFICIARY",
+      "target": "Beneficiary:Manufacturers"
+    },
+    {
+      "source": "Scheme:Rebate on Stamp duty and registration charges for Privately Developed Industrial Estates",
+      "type": "PROVIDES_BENEFIT_TYPE",
+      "target": "BenefitType:Incentives"
+    },
+    {
+      "source": "Scheme:Unemployed Youth Employment Generation Programme (UYEGP)",
+      "type": "BELONGS_TO",
+      "target": "Department:Agriculture - Farmers Welfare Department"
+    },
+    {
+      "source": "Scheme:Unemployed Youth Employment Generation Programme (UYEGP)",
+      "type": "HAS_BENEFICIARY",
+      "target": "Beneficiary:Manufacturers"
+    },
+    {
+      "source": "Scheme:Unemployed Youth Employment Generation Programme (UYEGP)",
+      "type": "PROVIDES_BENEFIT_TYPE",
+      "target": "BenefitType:Subsidy"
+    },
+    {
+      "source": "Scheme:Seed Multiplication Scheme of Paddy, Millets, Pulses, Oilseeds and Cotton",
+      "type": "BELONGS_TO",
+      "target": "Department:Agriculture - Farmers Welfare Department"
+    },
+    {
+      "source": "Scheme:Seed Multiplication Scheme of Paddy, Millets, Pulses, Oilseeds and Cotton",
+      "type": "HAS_BENEFICIARY",
+      "target": "Beneficiary:Farmers"
+    },
+    {
+      "source": "Scheme:Seed Multiplication Scheme of Paddy, Millets, Pulses, Oilseeds and Cotton",
+      "type": "PROVIDES_BENEFIT_TYPE",
+      "target": "BenefitType:Subsidy"
+    },
+    {
+      "source": "Scheme:Price Preference for Micro and Small Enterprises in Government purchases",
+      "type": "BELONGS_TO",
+      "target": "Department:Agriculture - Farmers Welfare Department"
+    },
+    {
+      "source": "Scheme:Price Preference for Micro and Small Enterprises in Government purchases",
+      "type": "HAS_BENEFICIARY",
+      "target": "Beneficiary:Farmers"
+    },
+    {
+      "source": "Scheme:Price Preference for Micro and Small Enterprises in Government purchases",
+      "type": "PROVIDES_BENEFIT_TYPE",
+      "target": "BenefitType:Subsidy"
+    },
+    {
+      "source": "Scheme:Farmers Training",
+      "type": "BELONGS_TO",
+      "target": "Department:Agriculture - Farmers Welfare Department"
+    },
+    {
+      "source": "Scheme:Farmers Training",
+      "type": "HAS_BENEFICIARY",
+      "target": "Beneficiary:Farmers"
+    },
+    {
+      "source": "Scheme:Farmers Training",
+      "type": "PROVIDES_BENEFIT_TYPE",
+      "target": "BenefitType:Grants"
+    },
+    {
+      "source": "Scheme:Farm Production System and micro enterprises - Sponsored By State Govt",
+      "type": "BELONGS_TO",
+      "target": "Department:Agriculture - Farmers Welfare Department"
+    },
+    {
+      "source": "Scheme:Farm Production System and micro enterprises - Sponsored By State Govt",
+      "type": "HAS_BENEFICIARY",
+      "target": "Beneficiary:Farmers"
+    },
+    {
+      "source": "Scheme:Farm Production System and micro enterprises - Sponsored By State Govt",
+      "type": "PROVIDES_BENEFIT_TYPE",
+      "target": "BenefitType:Subsidy"
+    },
+    {
+      "source": "Scheme:Waiver of Earnest Money Deposit for participation in Tenders",
+      "type": "BELONGS_TO",
+      "target": "Department:Agriculture - Farmers Welfare Department"
+    },
+    {
+      "source": "Scheme:Waiver of Earnest Money Deposit for participation in Tenders",
+      "type": "HAS_BENEFICIARY",
+      "target": "Beneficiary:Farmers"
+    },
+    {
+      "source": "Scheme:Waiver of Earnest Money Deposit for participation in Tenders",
+      "type": "PROVIDES_BENEFIT_TYPE",
+      "target": "BenefitType:Subsidy"
+    },
+    {
+      "source": "Scheme:Distribution of Certified  Seeds of maize",
+      "type": "BELONGS_TO",
+      "target": "Department:Agriculture - Farmers Welfare Department"
+    },
+    {
+      "source": "Scheme:Distribution of Certified  Seeds of maize",
+      "type": "HAS_BENEFICIARY",
+      "target": "Beneficiary:Farmers"
+    },
+    {
+      "source": "Scheme:Distribution of Certified  Seeds of maize",
+      "type": "PROVIDES_BENEFIT_TYPE",
+      "target": "BenefitType:Subsidy"
+    },
+    {
+      "source": "Scheme:Subsidy on the cost of Patent Registration in India or abroad",
+      "type": "BELONGS_TO",
+      "target": "Department:Agriculture - Farmers Welfare Department"
+    },
+    {
+      "source": "Scheme:Subsidy on the cost of Patent Registration in India or abroad",
+      "type": "HAS_BENEFICIARY",
+      "target": "Beneficiary:Manufacturers"
+    },
+    {
+      "source": "Scheme:Subsidy on the cost of Patent Registration in India or abroad",
+      "type": "PROVIDES_BENEFIT_TYPE",
+      "target": "BenefitType:Subsidy"
+    },
+    {
+      "source": "Scheme:Organizing Block Demonstration",
+      "type": "BELONGS_TO",
+      "target": "Department:Agriculture - Farmers Welfare Department"
+    },
+    {
+      "source": "Scheme:Organizing Block Demonstration",
+      "type": "HAS_BENEFICIARY",
+      "target": "Beneficiary:Farmers"
+    },
+    {
+      "source": "Scheme:Organizing Block Demonstration",
+      "type": "PROVIDES_BENEFIT_TYPE",
+      "target": "BenefitType:Subsidy"
+    },
+    {
+      "source": "Scheme:Reservation for Micro Enterprises in TANSIDCO Industrial Estates",
+      "type": "BELONGS_TO",
+      "target": "Department:Agriculture - Farmers Welfare Department"
+    },
+    {
+      "source": "Scheme:Reservation for Micro Enterprises in TANSIDCO Industrial Estates",
+      "type": "HAS_BENEFICIARY",
+      "target": "Beneficiary:Manufacturers"
+    },
+    {
+      "source": "Scheme:Reservation for Micro Enterprises in TANSIDCO Industrial Estates",
+      "type": "PROVIDES_BENEFIT_TYPE",
+      "target": "BenefitType:Incentives"
+    },
+    {
+      "source": "Scheme:Reimbursement of hall rent for conducting exhibition by MSME Association",
+      "type": "BELONGS_TO",
+      "target": "Department:Agriculture - Farmers Welfare Department"
+    },
+    {
+      "source": "Scheme:Reimbursement of hall rent for conducting exhibition by MSME Association",
+      "type": "HAS_BENEFICIARY",
+      "target": "Beneficiary:Manufacturers"
+    },
+    {
+      "source": "Scheme:Reimbursement of hall rent for conducting exhibition by MSME Association",
+      "type": "PROVIDES_BENEFIT_TYPE",
+      "target": "BenefitType:Subsidy"
+    },
+    {
+      "source": "Scheme:Term loan obtained under NEF scheme of TIIC (Renamed as Micro/Small Enterprises Funding Scheme)",
+      "type": "BELONGS_TO",
+      "target": "Department:Agriculture - Farmers Welfare Department"
+    },
+    {
+      "source": "Scheme:Term loan obtained under NEF scheme of TIIC (Renamed as Micro/Small Enterprises Funding Scheme)",
+      "type": "HAS_BENEFICIARY",
+      "target": "Beneficiary:Manufacturers"
+    },
+    {
+      "source": "Scheme:Term loan obtained under NEF scheme of TIIC (Renamed as Micro/Small Enterprises Funding Scheme)",
+      "type": "PROVIDES_BENEFIT_TYPE",
+      "target": "BenefitType:Incentives"
+    },
+    {
+      "source": "Scheme:Low Tension power tariff subsidy",
+      "type": "BELONGS_TO",
+      "target": "Department:Agriculture - Farmers Welfare Department"
+    },
+    {
+      "source": "Scheme:Low Tension power tariff subsidy",
+      "type": "HAS_BENEFICIARY",
+      "target": "Beneficiary:Manufacturers"
+    },
+    {
+      "source": "Scheme:Low Tension power tariff subsidy",
+      "type": "PROVIDES_BENEFIT_TYPE",
+      "target": "BenefitType:Subsidy"
+    },
+    {
+      "source": "Scheme:Subsidy on the cost of Trade Mark Registration in India or abroad",
+      "type": "BELONGS_TO",
+      "target": "Department:Agriculture - Farmers Welfare Department"
+    },
+    {
+      "source": "Scheme:Subsidy on the cost of Trade Mark Registration in India or abroad",
+      "type": "HAS_BENEFICIARY",
+      "target": "Beneficiary:Manufacturers"
+    },
+    {
+      "source": "Scheme:Subsidy on the cost of Trade Mark Registration in India or abroad",
+      "type": "PROVIDES_BENEFIT_TYPE",
+      "target": "BenefitType:Subsidy"
+    },
+    {
+      "source": "Scheme:Farmers Interest Group  (FIG)",
+      "type": "BELONGS_TO",
+      "target": "Department:Agriculture - Farmers Welfare Department"
+    },
+    {
+      "source": "Scheme:Farmers Interest Group  (FIG)",
+      "type": "HAS_BENEFICIARY",
+      "target": "Beneficiary:Farmers"
+    },
+    {
+      "source": "Scheme:Farmers Interest Group  (FIG)",
+      "type": "PROVIDES_BENEFIT_TYPE",
+      "target": "BenefitType:Grants"
+    },
+    {
+      "source": "Scheme:Pipes carrying water  from source to field",
+      "type": "BELONGS_TO",
+      "target": "Department:Agriculture - Farmers Welfare Department"
+    },
+    {
+      "source": "Scheme:Pipes carrying water  from source to field",
+      "type": "HAS_BENEFICIARY",
+      "target": "Beneficiary:Farmers"
+    },
+    {
+      "source": "Scheme:Pipes carrying water  from source to field",
+      "type": "PROVIDES_BENEFIT_TYPE",
+      "target": "BenefitType:Subsidy"
+    },
+    {
+      "source": "Scheme:Term loan obtained for Technology upgradation / modernisation schemes",
+      "type": "BELONGS_TO",
+      "target": "Department:Agriculture - Farmers Welfare Department"
+    },
+    {
+      "source": "Scheme:Term loan obtained for Technology upgradation / modernisation schemes",
+      "type": "HAS_BENEFICIARY",
+      "target": "Beneficiary:Manufacturers"
+    },
+    {
+      "source": "Scheme:Term loan obtained for Technology upgradation / modernisation schemes",
+      "type": "PROVIDES_BENEFIT_TYPE",
+      "target": "BenefitType:Incentives"
+    },
+    {
+      "source": "Scheme:Livelihood activities for asset less persons - Sponsored By State Govt",
+      "type": "BELONGS_TO",
+      "target": "Department:Agriculture - Farmers Welfare Department"
+    },
+    {
+      "source": "Scheme:Livelihood activities for asset less persons - Sponsored By State Govt",
+      "type": "HAS_BENEFICIARY",
+      "target": "Beneficiary:Farmers"
+    },
+    {
+      "source": "Scheme:Livelihood activities for asset less persons - Sponsored By State Govt",
+      "type": "PROVIDES_BENEFIT_TYPE",
+      "target": "BenefitType:Subsidy"
+    },
+    {
+      "source": "Scheme:Skill Development Training Schemes and Skill Upgradation Training Schemes",
+      "type": "BELONGS_TO",
+      "target": "Department:Agriculture - Farmers Welfare Department"
+    },
+    {
+      "source": "Scheme:Skill Development Training Schemes and Skill Upgradation Training Schemes",
+      "type": "HAS_BENEFICIARY",
+      "target": "Beneficiary:Manufacturers"
+    },
+    {
+      "source": "Scheme:Skill Development Training Schemes and Skill Upgradation Training Schemes",
+      "type": "PROVIDES_BENEFIT_TYPE",
+      "target": "BenefitType:Incentives"
+    },
+    {
+      "source": "Scheme:Micro Nutrient spray",
+      "type": "BELONGS_TO",
+      "target": "Department:Agriculture - Farmers Welfare Department"
+    },
+    {
+      "source": "Scheme:Micro Nutrient spray",
+      "type": "HAS_BENEFICIARY",
+      "target": "Beneficiary:Farmers"
+    },
+    {
+      "source": "Scheme:Micro Nutrient spray",
+      "type": "PROVIDES_BENEFIT_TYPE",
+      "target": "BenefitType:Subsidy"
+    },
+    {
+      "source": "Scheme:Term loan obtained under Credit Guarantee Fund Trust Scheme",
+      "type": "BELONGS_TO",
+      "target": "Department:Agriculture - Farmers Welfare Department"
+    },
+    {
+      "source": "Scheme:Term loan obtained under Credit Guarantee Fund Trust Scheme",
+      "type": "HAS_BENEFICIARY",
+      "target": "Beneficiary:Manufacturers"
+    },
+    {
+      "source": "Scheme:Term loan obtained under Credit Guarantee Fund Trust Scheme",
+      "type": "PROVIDES_BENEFIT_TYPE",
+      "target": "BenefitType:Incentives"
+    },
+    {
+      "source": "Scheme:Visit of Contract Farming  farmers to the Research  Stations in Karnataka",
+      "type": "BELONGS_TO",
+      "target": "Department:Agriculture - Farmers Welfare Department"
+    },
+    {
+      "source": "Scheme:Visit of Contract Farming  farmers to the Research  Stations in Karnataka",
+      "type": "HAS_BENEFICIARY",
+      "target": "Beneficiary:Farmers"
+    },
+    {
+      "source": "Scheme:Visit of Contract Farming  farmers to the Research  Stations in Karnataka",
+      "type": "PROVIDES_BENEFIT_TYPE",
+      "target": "BenefitType:Grants"
+    },
+    {
+      "source": "Scheme:Term loan obtained for ISO Certification/R&D under NSICTANSIDCO Consortium",
+      "type": "BELONGS_TO",
+      "target": "Department:Agriculture - Farmers Welfare Department"
+    },
+    {
+      "source": "Scheme:Term loan obtained for ISO Certification/R&D under NSICTANSIDCO Consortium",
+      "type": "HAS_BENEFICIARY",
+      "target": "Beneficiary:Manufacturers"
+    },
+    {
+      "source": "Scheme:Term loan obtained for ISO Certification/R&D under NSICTANSIDCO Consortium",
+      "type": "PROVIDES_BENEFIT_TYPE",
+      "target": "BenefitType:Subsidy"
+    },
+    {
+      "source": "Scheme:Integrated Pest  Management Demonstration  cum Training",
+      "type": "BELONGS_TO",
+      "target": "Department:Agriculture - Farmers Welfare Department"
+    },
+    {
+      "source": "Scheme:Integrated Pest  Management Demonstration  cum Training",
+      "type": "HAS_BENEFICIARY",
+      "target": "Beneficiary:Farmers"
+    },
+    {
+      "source": "Scheme:Integrated Pest  Management Demonstration  cum Training",
+      "type": "PROVIDES_BENEFIT_TYPE",
+      "target": "BenefitType:Grants"
+    },
+    {
+      "source": "Scheme:Stamp duty exemption on mortgaged and pledged documents",
+      "type": "BELONGS_TO",
+      "target": "Department:Agriculture - Farmers Welfare Department"
+    },
+    {
+      "source": "Scheme:Stamp duty exemption on mortgaged and pledged documents",
+      "type": "HAS_BENEFICIARY",
+      "target": "Beneficiary:Manufacturers"
+    },
+    {
+      "source": "Scheme:Stamp duty exemption on mortgaged and pledged documents",
+      "type": "PROVIDES_BENEFIT_TYPE",
+      "target": "BenefitType:Incentives"
+    },
+    {
+      "source": "Scheme:Distribution of Gypsum - Oil Seeds",
+      "type": "BELONGS_TO",
+      "target": "Department:Agriculture - Farmers Welfare Department"
+    },
+    {
+      "source": "Scheme:Distribution of Gypsum - Oil Seeds",
+      "type": "HAS_BENEFICIARY",
+      "target": "Beneficiary:Farmers"
+    },
+    {
+      "source": "Scheme:Distribution of Gypsum - Oil Seeds",
+      "type": "PROVIDES_BENEFIT_TYPE",
+      "target": "BenefitType:Subsidy"
+    },
+    {
+      "source": "Scheme:Production of Certified  Seeds of Maize",
+      "type": "BELONGS_TO",
+      "target": "Department:Agriculture - Farmers Welfare Department"
+    },
+    {
+      "source": "Scheme:Production of Certified  Seeds of Maize",
+      "type": "HAS_BENEFICIARY",
+      "target": "Beneficiary:Farmers"
+    },
+    {
+      "source": "Scheme:Production of Certified  Seeds of Maize",
+      "type": "PROVIDES_BENEFIT_TYPE",
+      "target": "BenefitType:Subsidy"
+    }
+  ]
+}
