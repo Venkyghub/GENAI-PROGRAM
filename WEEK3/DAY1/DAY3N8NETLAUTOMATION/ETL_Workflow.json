@@ -1,0 +1,243 @@
+{
+  "name": "ETL_Workflow",
+  "nodes": [
+    {
+      "parameters": {
+        "formTitle": "File Upload",
+        "formDescription": "File Upload",
+        "formFields": {
+          "values": [
+            {
+              "fieldLabel": "File Upload",
+              "fieldType": "file"
+            }
+          ]
+        },
+        "options": {
+          "appendAttribution": false
+        }
+      },
+      "type": "n8n-nodes-base.formTrigger",
+      "typeVersion": 2.6,
+      "position": [
+        -624,
+        -16
+      ],
+      "id": "29f4d26e-207d-42db-b4bf-399151afa3a5",
+      "name": "csv upload",
+      "webhookId": "4f24b8fb-df48-4c75-9c29-266ec2922e4d"
+    },
+    {
+      "parameters": {
+        "binaryPropertyName": "File_Upload",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.extractFromFile",
+      "typeVersion": 1.1,
+      "position": [
+        -416,
+        -16
+      ],
+      "id": "ecdccc46-bec0-4825-bb7d-c5587b07e729",
+      "name": "Extract from File"
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "=You are a data-cleaning assistant. Your task is to clean all student records provided in the CSV data and return the final result as a valid JSON string.\n\nCSV data:\n{{ JSON.stringify($json) }}\n\nApply the following transformations to all student records:\n\n1. **Trim whitespace:** Remove leading and trailing whitespace from every string field.\n\n2. **Fix inconsistent capitalisation:** Convert student names and other name fields to proper title case. Convert email addresses to lowercase. Preserve the original values of IDs and other fields where changing capitalization could affect the data.\n\n3. **Drop duplicate students:** Remove duplicate student records using Student ID as the primary identifier. If Student ID is unavailable, use email as the identifier. Keep only one record for each student.\n\n4. **Validate email:** Check that every email address has a valid email format. Remove the entire student record if the email address is missing or invalid.\n\n5. **Validate mobile number:** Retain valid Indian mobile numbers. Remove spaces, hyphens, and an optional +91 country code before validating. A valid normalized number must contain exactly 10 digits and start with 6, 7, 8, or 9. Remove the entire student record if the mobile number is missing or invalid. Store the valid mobile number as a 10-digit string.\n\n6. **Normalize fee payment status:** Convert the fee payment field into a Boolean value:\n   - true for Paid, Yes, True, or 1.\n   - false for Unpaid, Not Paid, No, False, or 0.\n   Ignore capitalization and surrounding whitespace. Do not use strings such as \"true\" or \"false\"; use actual JSON Boolean values. If the status is ambiguous, do not guess.\n\n7. **Preserve data:** Keep all original columns and valid student information. Do not invent missing values or change student IDs. Remove only duplicate records and records with missing or invalid email or mobile numbers.\n\n8. **JSON string output:** Return all cleaned student records as one valid JSON array of objects. Ensure every CSV row is considered. Escape special characters correctly. Do not include Markdown, explanations, or code fences.\n\n9. **Output structure:** Return only the JSON array of cleaned student records. Do not include any additional text or summary.\n\nThe output must be directly parseable by Python's json.loads() function.",
+        "messages": {
+          "messageValues": []
+        },
+        "batching": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.chainLlm",
+      "typeVersion": 1.9,
+      "position": [
+        -208,
+        -16
+      ],
+      "id": "18c2b46e-d910-424a-8565-b90a49aed2f1",
+      "name": "Basic LLM Chain"
+    },
+    {
+      "parameters": {
+        "model": {
+          "__rl": true,
+          "mode": "list",
+          "value": "gpt-5-mini"
+        },
+        "builtInTools": {},
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenAi",
+      "typeVersion": 1.3,
+      "position": [
+        -176,
+        192
+      ],
+      "id": "1d92d99b-2250-41ad-8c55-6887df94a5ec",
+      "name": "OpenAI Chat Model",
+      "credentials": {
+        "openAiApi": {
+          "id": "I1tA96q5piz5617F",
+          "name": "OpenAI account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "\nconst items = $input.all();\n\nlet students = [];\nlet invalidJsonItems = 0;\n\n// 1. Parse the JSON strings returned by the LLM\nfor (const item of items) {\n  let data = item.json.text ?? item.json;\n\n  if (typeof data === \"string\") {\n    try {\n      data = JSON.parse(data);\n    } catch (error) {\n      invalidJsonItems++;\n      continue;\n    }\n  }\n\n  if (Array.isArray(data)) {\n    students.push(...data);\n  } else if (data && typeof data === \"object\") {\n    students.push(data);\n  }\n}\n\n// 2. Helper functions\nfunction cleanText(value) {\n  return typeof value === \"string\" ? value.trim() : value;\n}\n\nfunction titleCase(value) {\n  if (typeof value !== \"string\") return value;\n\n  return value\n    .trim()\n    .toLowerCase()\n    .replace(/\\b([a-z])/g, letter => letter.toUpperCase())\n    .replace(/\\bMl\\b/g, \"ML\")\n    .replace(/\\bAi\\b/g, \"AI\")\n    .replace(/\\bSql\\b/g, \"SQL\");\n}\n\nfunction normalizeFee(value) {\n  if (typeof value === \"boolean\") return value;\n\n  const v = String(value ?? \"\").trim().toLowerCase();\n\n  if ([\"yes\", \"paid\", \"true\", \"1\"].includes(v)) {\n    return true;\n  }\n\n  if ([\"no\", \"unpaid\", \"not paid\", \"false\", \"0\"].includes(v)) {\n    return false;\n  }\n\n  return null;\n}\n\nfunction normalizePhone(value) {\n  if (value === null || value === undefined) return \"\";\n\n  let phone = String(value).trim();\n\n  // Handle numbers converted to strings such as 9876543210.0\n  phone = phone.replace(/\\.0$/, \"\");\n\n  // Remove spaces, hyphens, and parentheses\n  phone = phone.replace(/[\\s\\-()]/g, \"\");\n\n  // Remove optional Indian country code\n  if (phone.startsWith(\"+91\")) {\n    phone = phone.slice(3);\n  } else if (phone.startsWith(\"0091\")) {\n    phone = phone.slice(4);\n  } else if (phone.startsWith(\"91\") && phone.length === 12) {\n    phone = phone.slice(2);\n  }\n\n  return phone;\n}\n\n// 3. Track removed records\nconst stats = {\n  received: students.length,\n  duplicate: 0,\n  invalidEmail: 0,\n  invalidPhone: 0,\n  invalidFeeStatus: 0,\n  kept: 0,\n  invalidJsonItems\n};\n\nconst seenStudentIds = new Set();\nconst seenEmails = new Set();\nconst cleanedStudents = [];\n\n// 4. Clean and validate every student\nfor (const original of students) {\n  const student = {};\n\n  // Trim whitespace from every string field\n  for (const [key, value] of Object.entries(original)) {\n    student[key] = cleanText(value);\n  }\n\n  // Standardize selected text fields\n  for (const key of [\"Name\", \"Course\", \"City\"]) {\n    if (typeof student[key] === \"string\") {\n      student[key] = titleCase(student[key]);\n    }\n  }\n\n  // Normalize email\n  student.Email = String(student.Email ?? \"\")\n    .trim()\n    .toLowerCase();\n\n  const emailPattern =\n    /^[a-z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-z0-9-]+(?:\\.[a-z0-9-]+)+$/i;\n\n  if (!emailPattern.test(student.Email)) {\n    stats.invalidEmail++;\n    continue;\n  }\n\n  // Normalize and validate Indian mobile number\n  const phone = normalizePhone(student.Phone);\n\n  if (!/^[6-9]\\d{9}$/.test(phone)) {\n    stats.invalidPhone++;\n    continue;\n  }\n\n  student.Phone = phone;\n\n  // Normalize fee payment into a real Boolean\n  const feeStatus = normalizeFee(student.Fee_Paid);\n\n  if (feeStatus === null) {\n    stats.invalidFeeStatus++;\n    continue;\n  }\n\n  student.Fee_Paid = feeStatus;\n\n  // Remove duplicates using Student_ID, then email\n  const studentId = String(student.Student_ID ?? \"\").trim();\n\n  const duplicate =\n    (studentId !== \"\" && seenStudentIds.has(studentId)) ||\n    seenEmails.has(student.Email);\n\n  if (duplicate) {\n    stats.duplicate++;\n    continue;\n  }\n\n  if (studentId !== \"\") {\n    seenStudentIds.add(studentId);\n  }\n\n  seenEmails.add(student.Email);\n  cleanedStudents.push(student);\n}\n\nstats.kept = cleanedStudents.length;\n\n// 5. Return one output item containing the cleaned JSON array\nreturn cleanedStudents.map(student => ({\n  json: student\n}));\n"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        112,
+        -16
+      ],
+      "id": "08d6e54a-a2e0-40e0-ae72-e2c985a71364",
+      "name": "Code in JavaScript"
+    },
+    {
+      "parameters": {
+        "binaryPropertyName": "clean_Data",
+        "options": {
+          "fileName": "cleaned_students.csv"
+        }
+      },
+      "type": "n8n-nodes-base.convertToFile",
+      "typeVersion": 1.1,
+      "position": [
+        576,
+        -32
+      ],
+      "id": "6949fb8d-e58c-4deb-ae81-160bc62ef607",
+      "name": "Convert to File"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 3
+          },
+          "conditions": [
+            {
+              "id": "cb0368a8-b54b-4cc5-b2b8-ee43b95c4e6c",
+              "leftValue": "={{ $json.City }}",
+              "rightValue": "Chennai",
+              "operator": {
+                "type": "string",
+                "operation": "equals"
+              }
+            },
+            {
+              "id": "4bf6fbb3-c649-4782-be85-364c5facaf2a",
+              "leftValue": "={{ $json.Email }}",
+              "rightValue": "",
+              "operator": {
+                "type": "string",
+                "operation": "notEmpty",
+                "singleValue": true
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "looseTypeValidation": "={{ false }}",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.3,
+      "position": [
+        320,
+        -16
+      ],
+      "id": "fe644e52-e9da-444e-9de0-6bf5d56d1590",
+      "name": "If"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "csv upload": {
+      "main": [
+        [
+          {
+            "node": "Extract from File",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Extract from File": {
+      "main": [
+        [
+          {
+            "node": "Basic LLM Chain",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenAI Chat Model": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Basic LLM Chain",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Basic LLM Chain": {
+      "main": [
+        [
+          {
+            "node": "Code in JavaScript",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Code in JavaScript": {
+      "main": [
+        [
+          {
+            "node": "If",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "If": {
+      "main": [
+        [
+          {
+            "node": "Convert to File",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": true,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate"
+  },
+  "versionId": "4bd7b619-e5da-4f9f-8be7-c82dd9aa3087",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "f048edce9d9b064f83539f3a6dd15661eed12a7f04aec6405fa2b3bc39226a26"
+  },
+  "nodeGroups": [],
+  "id": "wqrbpYRJgMyI3Eh2",
+  "tags": []
+}
