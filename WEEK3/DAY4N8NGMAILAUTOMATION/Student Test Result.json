@@ -1,0 +1,108 @@
+{
+  "name": "Student Test Result",
+  "nodes": [
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        0,
+        0
+      ],
+      "id": "1119d051-15c7-4e50-83c1-3f1b3b7facf8",
+      "name": "When clicking ‘Execute workflow’"
+    },
+    {
+      "parameters": {
+        "documentId": {
+          "__rl": true,
+          "value": "https://docs.google.com/spreadsheets/d/1q7wwFrVOarNQkAfPoa9f7APVUxFwPcl2UhRN6zUzouw/edit?gid=0#gid=0",
+          "mode": "url"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": "Sheet1",
+          "mode": "name"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.7,
+      "position": [
+        224,
+        0
+      ],
+      "id": "c3021b89-8363-478b-876b-196dd8cacafd",
+      "name": "Get row(s) in sheet",
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "pwFwXkYkju17nqIx",
+          "name": "Google Sheets account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "sendTo": "={{ $json.Email }}",
+        "subject": "=Exam Results - {{ $json[\"Student Name\"] }} ({{ $json[\"Student Id\"] }})",
+        "message": "=<p>Hi {{ $json[\"Student Name\"] }} ({{ $json[\"Student Id\"] }}),</p>\n\n<!-- Bold header with dynamic color based on the result status -->\n<p><b>Student Test Result:</b></p>\n\n<table style=\"border-collapse: collapse; width: 100%; max-width: 400px; font-family: Arial, sans-serif; margin: 15px 0;\">\n  <tr style=\"border-bottom: 2px solid #333;\">\n    <th style=\"text-align: left; padding: 8px; font-weight: bold;\">Student Name :</th>\n    <td style=\"padding: 8px;\">{{ $json[\"Student Name\"] }}</td>\n  </tr>\n  <tr style=\"border-bottom: 2px solid #333;\">\n    <th style=\"text-align: left; padding: 8px; font-weight: bold;\">Student Id :</th>\n    <td style=\"padding: 8px;\">{{ $json[\"Student Id\"] }}</td>\n  </tr>\n</table>\n\n<table style=\"border-collapse: collapse; width: 100%; max-width: 400px; font-family: Arial, sans-serif;\">\n  <thead>\n    <tr style=\"background-color: #f2f2f2; border-bottom: 2px solid #333;\">\n      <th style=\"text-align: left; padding: 8px;\">Subject</th>\n      <th style=\"text-align: left; padding: 8px;\">Marks</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr style=\"border-bottom: 1px solid #ddd;\">\n      <td style=\"padding: 8px;\">Maths</td>\n      <td style=\"padding: 8px;\">{{ $json[\"Maths\"] }}</td>\n    </tr>\n    <tr style=\"border-bottom: 1px solid #ddd;\">\n      <td style=\"padding: 8px;\">English</td>\n      <td style=\"padding: 8px;\">{{ $json[\"English\"] }}</td>\n    </tr>\n    <tr style=\"border-bottom: 1px solid #ddd;\">\n      <td style=\"padding: 8px;\">Tamil</td>\n      <td style=\"padding: 8px;\">{{ $json[\"Tamil\"] }}</td>\n    </tr>\n    <tr style=\"border-bottom: 1px solid #ddd;\">\n      <td style=\"padding: 8px;\">Science</td>\n      <td style=\"padding: 8px;\">{{ $json[\"Science\"] }}</td>\n    </tr>\n    <tr style=\"border-bottom: 2px solid #333;\">\n      <td style=\"padding: 8px;\">Practicals</td>\n      <td style=\"padding: 8px;\">{{ $json[\"Practicals\"] }}</td>\n    </tr>\n    <!-- Dynamic inline color applied to the final result cell -->\n    <tr style=\"font-weight: bold; background-color: #fafafa;\">\n      <td style=\"padding: 8px;\">Result:</td>\n      <td style=\"padding: 8px; color: {{ $json['Result'].toLowerCase() === 'pass' ? '#2e7d32' : '#d32f2f' }};\">{{ $json[\"Result\"] }}</td>\n    </tr>\n  </tbody>\n</table>\n\n<p style=\"margin-top: 20px;\">Regards,<br>School Management</p>\n",
+        "options": {
+          "appendAttribution": false
+        }
+      },
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.2,
+      "position": [
+        448,
+        0
+      ],
+      "id": "9f20937b-64b3-4bac-b043-e8f3bdbacc50",
+      "name": "Send a message",
+      "webhookId": "8c2cba66-70aa-4432-a15b-9f552c6ca1a2",
+      "credentials": {
+        "gmailOAuth2": {
+          "id": "WM4daPRumO2hvqK2",
+          "name": "Gmail account"
+        }
+      }
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "When clicking ‘Execute workflow’": {
+      "main": [
+        [
+          {
+            "node": "Get row(s) in sheet",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get row(s) in sheet": {
+      "main": [
+        [
+          {
+            "node": "Send a message",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate"
+  },
+  "versionId": "f6ef0f6a-957d-4383-b0f0-64f7f223cf08",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "f048edce9d9b064f83539f3a6dd15661eed12a7f04aec6405fa2b3bc39226a26"
+  },
+  "nodeGroups": [],
+  "id": "yPfmx2iR0i6n9Ul1",
+  "tags": []
+}
